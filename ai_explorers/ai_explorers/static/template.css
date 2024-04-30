@@ -1,0 +1,12 @@
+@import "../basic.css";
+
+:root {
+
+--pst-header-height: 70px;
+}
+
+.navbar-brand img {
+    height: 150%;
+    max-width: 100%;
+    width: auto;
+}

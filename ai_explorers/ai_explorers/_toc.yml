@@ -1,0 +1,27 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: home/neural_network
+  sections:
+  - file: neural_network/neural_network
+  - file: neural_network/cnn
+- file: home/models
+  sections:
+  - file: models/index/machine_learning
+    sections:
+    - glob: models/machine_learning/*
+  - file: models/index/nlp
+    sections:
+    - glob: models/nlp/*
+  - file: models/index/visions
+    sections:
+    - glob: models/visions/*
+  - file: models/index/reinforcement_learning
+    sections:
+    - glob: models/reinforcement_learning/*
+- file: home/jobs
+  sections:
+  - glob: jobs/*
