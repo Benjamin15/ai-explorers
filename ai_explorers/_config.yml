@@ -49,3 +49,7 @@ sphinx:
 
     html_static_path: [static]
     html_css_files: [template.css]
+
+
+html:
+  google_analytics_id: G-GEB1Y0KF70
