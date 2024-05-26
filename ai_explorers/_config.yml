@@ -34,6 +34,7 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+  google_analytics_id: G-GEB1Y0KF70
 
 launch_buttons:
   colab_url: "https://colab.research.google.com"
@@ -49,7 +50,3 @@ sphinx:
 
     html_static_path: [static]
     html_css_files: [template.css]
-
-
-html:
-  google_analytics_id: G-GEB1Y0KF70
